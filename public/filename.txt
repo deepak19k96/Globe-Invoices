@@ -1,0 +1,657 @@
+Array
+(
+    [entityType] => invoice
+    [clientName] => Stefan Sokolovic
+    [accountName] => Stefan Sokolovic
+    [userName] => Stefan Sokolovic
+    [invoiceAmount] => $25.00
+    [invoiceNumber] => 0037
+    [invoiceLink] => http://localhost:8081/invoices/36
+    [account] => App\Models\Account Object
+        (
+            [presenter:protected] => App\Ninja\Presenters\AccountPresenter
+            [dates:protected] => Array
+                (
+                    [0] => deleted_at
+                )
+
+            [hidden:protected] => Array
+                (
+                    [0] => ip
+                )
+
+            [fillable:protected] => Array
+                (
+                    [0] => timezone_id
+                    [1] => date_format_id
+                    [2] => datetime_format_id
+                    [3] => currency_id
+                    [4] => name
+                    [5] => address1
+                    [6] => address2
+                    [7] => city
+                    [8] => state
+                    [9] => postal_code
+                    [10] => country_id
+                    [11] => invoice_terms
+                    [12] => email_footer
+                    [13] => industry_id
+                    [14] => size_id
+                    [15] => invoice_taxes
+                    [16] => invoice_item_taxes
+                    [17] => invoice_design_id
+                    [18] => quote_design_id
+                    [19] => work_phone
+                    [20] => work_email
+                    [21] => language_id
+                    [22] => fill_products
+                    [23] => update_products
+                    [24] => primary_color
+                    [25] => secondary_color
+                    [26] => hide_quantity
+                    [27] => hide_paid_to_date
+                    [28] => vat_number
+                    [29] => invoice_number_prefix
+                    [30] => invoice_number_counter
+                    [31] => quote_number_prefix
+                    [32] => quote_number_counter
+                    [33] => share_counter
+                    [34] => id_number
+                    [35] => token_billing_type_id
+                    [36] => invoice_footer
+                    [37] => pdf_email_attachment
+                    [38] => font_size
+                    [39] => invoice_labels
+                    [40] => custom_design1
+                    [41] => custom_design2
+                    [42] => custom_design3
+                    [43] => show_item_taxes
+                    [44] => military_time
+                    [45] => enable_reminder1
+                    [46] => enable_reminder2
+                    [47] => enable_reminder3
+                    [48] => enable_reminder4
+                    [49] => num_days_reminder1
+                    [50] => num_days_reminder2
+                    [51] => num_days_reminder3
+                    [52] => tax_name1
+                    [53] => tax_rate1
+                    [54] => tax_name2
+                    [55] => tax_rate2
+                    [56] => recurring_hour
+                    [57] => invoice_number_pattern
+                    [58] => quote_number_pattern
+                    [59] => quote_terms
+                    [60] => email_design_id
+                    [61] => enable_email_markup
+                    [62] => website
+                    [63] => direction_reminder1
+                    [64] => direction_reminder2
+                    [65] => direction_reminder3
+                    [66] => field_reminder1
+                    [67] => field_reminder2
+                    [68] => field_reminder3
+                    [69] => header_font_id
+                    [70] => body_font_id
+                    [71] => auto_convert_quote
+                    [72] => auto_archive_quote
+                    [73] => auto_archive_invoice
+                    [74] => auto_email_invoice
+                    [75] => all_pages_footer
+                    [76] => all_pages_header
+                    [77] => show_currency_code
+                    [78] => enable_portal_password
+                    [79] => send_portal_password
+                    [80] => recurring_invoice_number_prefix
+                    [81] => enable_client_portal
+                    [82] => invoice_fields
+                    [83] => invoice_embed_documents
+                    [84] => document_email_attachment
+                    [85] => ubl_email_attachment
+                    [86] => enable_client_portal_dashboard
+                    [87] => page_size
+                    [88] => live_preview
+                    [89] => invoice_number_padding
+                    [90] => enable_second_tax_rate
+                    [91] => auto_bill_on_due_date
+                    [92] => start_of_week
+                    [93] => enable_buy_now_buttons
+                    [94] => include_item_taxes_inline
+                    [95] => financial_year_start
+                    [96] => enabled_modules
+                    [97] => enabled_dashboard_sections
+                    [98] => show_accept_invoice_terms
+                    [99] => show_accept_quote_terms
+                    [100] => require_invoice_signature
+                    [101] => require_quote_signature
+                    [102] => client_number_prefix
+                    [103] => client_number_counter
+                    [104] => client_number_pattern
+                    [105] => payment_terms
+                    [106] => reset_counter_frequency_id
+                    [107] => payment_type_id
+                    [108] => gateway_fee_enabled
+                    [109] => send_item_details
+                    [110] => reset_counter_date
+                    [111] => domain_id
+                    [112] => analytics_key
+                    [113] => credit_number_counter
+                    [114] => credit_number_prefix
+                    [115] => credit_number_pattern
+                    [116] => task_rate
+                    [117] => inclusive_taxes
+                    [118] => convert_products
+                    [119] => signature_on_pdf
+                    [120] => custom_fields
+                    [121] => custom_value1
+                    [122] => custom_value2
+                    [123] => custom_messages
+                )
+
+            [connection:protected] => mysql
+            [table:protected] => 
+            [primaryKey:protected] => id
+            [keyType:protected] => int
+            [incrementing] => 1
+            [with:protected] => Array
+                (
+                )
+
+            [withCount:protected] => Array
+                (
+                )
+
+            [perPage:protected] => 15
+            [exists] => 1
+            [wasRecentlyCreated] => 
+            [attributes:protected] => Array
+                (
+                    [id] => 1
+                    [timezone_id] => 
+                    [date_format_id] => 
+                    [datetime_format_id] => 
+                    [currency_id] => 1
+                    [created_at] => 2021-03-02 21:21:18
+                    [updated_at] => 2021-05-24 09:41:49
+                    [deleted_at] => 
+                    [name] => 
+                    [ip] => 127.0.0.1
+                    [account_key] => vhuyi6fpnnro8gfbpwqkwclgzoeqqxyq
+                    [last_login] => 2021-05-24 09:27:29
+                    [address1] => 
+                    [address2] => 
+                    [city] => 
+                    [state] => 
+                    [postal_code] => 
+                    [country_id] => 
+                    [invoice_terms] => 
+                    [email_footer] => 
+                    [industry_id] => 
+                    [size_id] => 
+                    [invoice_taxes] => 1
+                    [invoice_item_taxes] => 0
+                    [invoice_design_id] => 1
+                    [work_phone] => 
+                    [work_email] => 
+                    [language_id] => 1
+                    [custom_value1] => 
+                    [custom_value2] => 
+                    [fill_products] => 1
+                    [update_products] => 1
+                    [primary_color] => 
+                    [secondary_color] => 
+                    [hide_quantity] => 0
+                    [hide_paid_to_date] => 0
+                    [custom_invoice_taxes1] => 
+                    [custom_invoice_taxes2] => 
+                    [vat_number] => 
+                    [invoice_number_prefix] => 
+                    [invoice_number_counter] => 38
+                    [quote_number_prefix] => 
+                    [quote_number_counter] => 1
+                    [share_counter] => 1
+                    [id_number] => 
+                    [token_billing_type_id] => 4
+                    [invoice_footer] => 
+                    [pdf_email_attachment] => 1
+                    [subdomain] => 
+                    [font_size] => 9
+                    [invoice_labels] => 
+                    [custom_design1] => 
+                    [show_item_taxes] => 0
+                    [iframe_url] => 
+                    [military_time] => 0
+                    [enable_reminder1] => 0
+                    [enable_reminder2] => 0
+                    [enable_reminder3] => 0
+                    [num_days_reminder1] => 7
+                    [num_days_reminder2] => 14
+                    [num_days_reminder3] => 30
+                    [recurring_hour] => 8
+                    [invoice_number_pattern] => 
+                    [quote_number_pattern] => 
+                    [quote_terms] => 
+                    [email_design_id] => 2
+                    [enable_email_markup] => 0
+                    [website] => 
+                    [direction_reminder1] => 1
+                    [direction_reminder2] => 1
+                    [direction_reminder3] => 1
+                    [field_reminder1] => 1
+                    [field_reminder2] => 1
+                    [field_reminder3] => 1
+                    [client_view_css] => 
+                    [header_font_id] => 1
+                    [body_font_id] => 1
+                    [auto_convert_quote] => 1
+                    [all_pages_footer] => 0
+                    [all_pages_header] => 0
+                    [show_currency_code] => 0
+                    [enable_portal_password] => 0
+                    [send_portal_password] => 0
+                    [recurring_invoice_number_prefix] => R
+                    [enable_client_portal] => 1
+                    [invoice_fields] => 
+                    [devices] => 
+                    [logo] => 
+                    [logo_width] => 0
+                    [logo_height] => 0
+                    [logo_size] => 0
+                    [invoice_embed_documents] => 0
+                    [document_email_attachment] => 1
+                    [enable_client_portal_dashboard] => 1
+                    [company_id] => 1
+                    [page_size] => A4
+                    [live_preview] => 1
+                    [invoice_number_padding] => 4
+                    [enable_second_tax_rate] => 0
+                    [auto_bill_on_due_date] => 0
+                    [start_of_week] => 0
+                    [enable_buy_now_buttons] => 0
+                    [include_item_taxes_inline] => 0
+                    [financial_year_start] => 
+                    [enabled_modules] => 63
+                    [enabled_dashboard_sections] => 7
+                    [show_accept_invoice_terms] => 0
+                    [show_accept_quote_terms] => 0
+                    [require_invoice_signature] => 0
+                    [require_quote_signature] => 0
+                    [client_number_prefix] => 
+                    [client_number_counter] => 0
+                    [client_number_pattern] => 
+                    [domain_id] => 1
+                    [payment_terms] => 
+                    [reset_counter_frequency_id] => 
+                    [payment_type_id] => 
+                    [gateway_fee_enabled] => 0
+                    [reset_counter_date] => 
+                    [tax_name1] => 
+                    [tax_rate1] => 0.000
+                    [tax_name2] => 
+                    [tax_rate2] => 0.000
+                    [quote_design_id] => 1
+                    [custom_design2] => 
+                    [custom_design3] => 
+                    [analytics_key] => 
+                    [credit_number_counter] => 0
+                    [credit_number_prefix] => 
+                    [credit_number_pattern] => 
+                    [task_rate] => 0.0000
+                    [inclusive_taxes] => 0
+                    [convert_products] => 0
+                    [enable_reminder4] => 0
+                    [signature_on_pdf] => 0
+                    [ubl_email_attachment] => 0
+                    [auto_archive_invoice] => 0
+                    [auto_archive_quote] => 0
+                    [auto_email_invoice] => 1
+                    [send_item_details] => 0
+                    [custom_fields] => 
+                    [background_image_id] => 
+                    [custom_messages] => 
+                    [is_custom_domain] => 0
+                    [show_product_notes] => 0
+                )
+
+            [original:protected] => Array
+                (
+                    [id] => 1
+                    [timezone_id] => 
+                    [date_format_id] => 
+                    [datetime_format_id] => 
+                    [currency_id] => 1
+                    [created_at] => 2021-03-02 21:21:18
+                    [updated_at] => 2021-05-24 09:41:49
+                    [deleted_at] => 
+                    [name] => 
+                    [ip] => 127.0.0.1
+                    [account_key] => vhuyi6fpnnro8gfbpwqkwclgzoeqqxyq
+                    [last_login] => 2021-05-24 09:27:29
+                    [address1] => 
+                    [address2] => 
+                    [city] => 
+                    [state] => 
+                    [postal_code] => 
+                    [country_id] => 
+                    [invoice_terms] => 
+                    [email_footer] => 
+                    [industry_id] => 
+                    [size_id] => 
+                    [invoice_taxes] => 1
+                    [invoice_item_taxes] => 0
+                    [invoice_design_id] => 1
+                    [work_phone] => 
+                    [work_email] => 
+                    [language_id] => 1
+                    [custom_value1] => 
+                    [custom_value2] => 
+                    [fill_products] => 1
+                    [update_products] => 1
+                    [primary_color] => 
+                    [secondary_color] => 
+                    [hide_quantity] => 0
+                    [hide_paid_to_date] => 0
+                    [custom_invoice_taxes1] => 
+                    [custom_invoice_taxes2] => 
+                    [vat_number] => 
+                    [invoice_number_prefix] => 
+                    [invoice_number_counter] => 38
+                    [quote_number_prefix] => 
+                    [quote_number_counter] => 1
+                    [share_counter] => 1
+                    [id_number] => 
+                    [token_billing_type_id] => 4
+                    [invoice_footer] => 
+                    [pdf_email_attachment] => 1
+                    [subdomain] => 
+                    [font_size] => 9
+                    [invoice_labels] => 
+                    [custom_design1] => 
+                    [show_item_taxes] => 0
+                    [iframe_url] => 
+                    [military_time] => 0
+                    [enable_reminder1] => 0
+                    [enable_reminder2] => 0
+                    [enable_reminder3] => 0
+                    [num_days_reminder1] => 7
+                    [num_days_reminder2] => 14
+                    [num_days_reminder3] => 30
+                    [recurring_hour] => 8
+                    [invoice_number_pattern] => 
+                    [quote_number_pattern] => 
+                    [quote_terms] => 
+                    [email_design_id] => 2
+                    [enable_email_markup] => 0
+                    [website] => 
+                    [direction_reminder1] => 1
+                    [direction_reminder2] => 1
+                    [direction_reminder3] => 1
+                    [field_reminder1] => 1
+                    [field_reminder2] => 1
+                    [field_reminder3] => 1
+                    [client_view_css] => 
+                    [header_font_id] => 1
+                    [body_font_id] => 1
+                    [auto_convert_quote] => 1
+                    [all_pages_footer] => 0
+                    [all_pages_header] => 0
+                    [show_currency_code] => 0
+                    [enable_portal_password] => 0
+                    [send_portal_password] => 0
+                    [recurring_invoice_number_prefix] => R
+                    [enable_client_portal] => 1
+                    [invoice_fields] => 
+                    [devices] => 
+                    [logo] => 
+                    [logo_width] => 0
+                    [logo_height] => 0
+                    [logo_size] => 0
+                    [invoice_embed_documents] => 0
+                    [document_email_attachment] => 1
+                    [enable_client_portal_dashboard] => 1
+                    [company_id] => 1
+                    [page_size] => A4
+                    [live_preview] => 1
+                    [invoice_number_padding] => 4
+                    [enable_second_tax_rate] => 0
+                    [auto_bill_on_due_date] => 0
+                    [start_of_week] => 0
+                    [enable_buy_now_buttons] => 0
+                    [include_item_taxes_inline] => 0
+                    [financial_year_start] => 
+                    [enabled_modules] => 63
+                    [enabled_dashboard_sections] => 7
+                    [show_accept_invoice_terms] => 0
+                    [show_accept_quote_terms] => 0
+                    [require_invoice_signature] => 0
+                    [require_quote_signature] => 0
+                    [client_number_prefix] => 
+                    [client_number_counter] => 0
+                    [client_number_pattern] => 
+                    [domain_id] => 1
+                    [payment_terms] => 
+                    [reset_counter_frequency_id] => 
+                    [payment_type_id] => 
+                    [gateway_fee_enabled] => 0
+                    [reset_counter_date] => 
+                    [tax_name1] => 
+                    [tax_rate1] => 0.000
+                    [tax_name2] => 
+                    [tax_rate2] => 0.000
+                    [quote_design_id] => 1
+                    [custom_design2] => 
+                    [custom_design3] => 
+                    [analytics_key] => 
+                    [credit_number_counter] => 0
+                    [credit_number_prefix] => 
+                    [credit_number_pattern] => 
+                    [task_rate] => 0.0000
+                    [inclusive_taxes] => 0
+                    [convert_products] => 0
+                    [enable_reminder4] => 0
+                    [signature_on_pdf] => 0
+                    [ubl_email_attachment] => 0
+                    [auto_archive_invoice] => 0
+                    [auto_archive_quote] => 0
+                    [auto_email_invoice] => 1
+                    [send_item_details] => 0
+                    [custom_fields] => 
+                    [background_image_id] => 
+                    [custom_messages] => 
+                    [is_custom_domain] => 0
+                    [show_product_notes] => 0
+                )
+
+            [changes:protected] => Array
+                (
+                )
+
+            [casts:protected] => Array
+                (
+                )
+
+            [dateFormat:protected] => 
+            [appends:protected] => Array
+                (
+                )
+
+            [dispatchesEvents:protected] => Array
+                (
+                )
+
+            [observables:protected] => Array
+                (
+                )
+
+            [relations:protected] => Array
+                (
+                    [company] => App\Models\Company Object
+                        (
+                            [presenter:protected] => App\Ninja\Presenters\CompanyPresenter
+                            [fillable:protected] => Array
+                                (
+                                    [0] => plan
+                                    [1] => plan_term
+                                    [2] => plan_price
+                                    [3] => plan_paid
+                                    [4] => plan_started
+                                    [5] => plan_expires
+                                )
+
+                            [dates:protected] => Array
+                                (
+                                    [0] => deleted_at
+                                    [1] => promo_expires
+                                    [2] => discount_expires
+                                )
+
+                            [connection:protected] => mysql
+                            [table:protected] => 
+                            [primaryKey:protected] => id
+                            [keyType:protected] => int
+                            [incrementing] => 1
+                            [with:protected] => Array
+                                (
+                                )
+
+                            [withCount:protected] => Array
+                                (
+                                )
+
+                            [perPage:protected] => 15
+                            [exists] => 1
+                            [wasRecentlyCreated] => 
+                            [attributes:protected] => Array
+                                (
+                                    [id] => 1
+                                    [plan] => 
+                                    [plan_term] => 
+                                    [plan_started] => 
+                                    [plan_paid] => 
+                                    [plan_expires] => 
+                                    [payment_id] => 
+                                    [trial_started] => 
+                                    [trial_plan] => 
+                                    [pending_plan] => 
+                                    [pending_term] => 
+                                    [created_at] => 2021-03-02 21:21:18
+                                    [updated_at] => 2021-03-02 21:21:18
+                                    [deleted_at] => 
+                                    [plan_price] => 
+                                    [pending_plan_price] => 
+                                    [num_users] => 1
+                                    [pending_num_users] => 1
+                                    [utm_source] => 
+                                    [utm_medium] => 
+                                    [utm_campaign] => 
+                                    [utm_term] => 
+                                    [utm_content] => 
+                                    [discount] => 0
+                                    [discount_expires] => 
+                                    [promo_expires] => 
+                                    [bluevine_status] => 
+                                    [referral_code] => 
+                                    [app_store_order_id] => 
+                                )
+
+                            [original:protected] => Array
+                                (
+                                    [id] => 1
+                                    [plan] => 
+                                    [plan_term] => 
+                                    [plan_started] => 
+                                    [plan_paid] => 
+                                    [plan_expires] => 
+                                    [payment_id] => 
+                                    [trial_started] => 
+                                    [trial_plan] => 
+                                    [pending_plan] => 
+                                    [pending_term] => 
+                                    [created_at] => 2021-03-02 21:21:18
+                                    [updated_at] => 2021-03-02 21:21:18
+                                    [deleted_at] => 
+                                    [plan_price] => 
+                                    [pending_plan_price] => 
+                                    [num_users] => 1
+                                    [pending_num_users] => 1
+                                    [utm_source] => 
+                                    [utm_medium] => 
+                                    [utm_campaign] => 
+                                    [utm_term] => 
+                                    [utm_content] => 
+                                    [discount] => 0
+                                    [discount_expires] => 
+                                    [promo_expires] => 
+                                    [bluevine_status] => 
+                                    [referral_code] => 
+                                    [app_store_order_id] => 
+                                )
+
+                            [changes:protected] => Array
+                                (
+                                )
+
+                            [casts:protected] => Array
+                                (
+                                )
+
+                            [dateFormat:protected] => 
+                            [appends:protected] => Array
+                                (
+                                )
+
+                            [dispatchesEvents:protected] => Array
+                                (
+                                )
+
+                            [observables:protected] => Array
+                                (
+                                )
+
+                            [relations:protected] => Array
+                                (
+                                )
+
+                            [touches:protected] => Array
+                                (
+                                )
+
+                            [timestamps] => 1
+                            [hidden:protected] => Array
+                                (
+                                )
+
+                            [visible:protected] => Array
+                                (
+                                )
+
+                            [guarded:protected] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [forceDeleting:protected] => 
+                            [presenterInstance:protected] => 
+                        )
+
+                )
+
+            [touches:protected] => Array
+                (
+                )
+
+            [timestamps] => 1
+            [visible:protected] => Array
+                (
+                )
+
+            [guarded:protected] => Array
+                (
+                    [0] => *
+                )
+
+            [presenterInstance:protected] => 
+            [forceDeleting:protected] => 
+        )
+
+)
